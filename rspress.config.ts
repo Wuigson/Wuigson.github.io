@@ -1,7 +1,7 @@
 import { defineConfig } from 'rspress/config';
 
 export default defineConfig({
-  // �ĵ���Ŀ¼
+  // 文档根目录
   root: 'docs',
   base: '/',
   builderConfig: {
@@ -9,4 +9,5 @@ export default defineConfig({
       assetPrefix: 'https://cdn.com/',
     },
   },
+
 });
